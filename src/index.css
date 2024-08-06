@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply w-full p-3 rounded-lg text-black font-semibold text-sm transition hover:opacity-90 active:translate-y-[1px];
+}
+
+.btn-1 {
+  @apply bg-cyan-400;
+}
+
+.btn-2 {
+  @apply bg-rose-400;
+}
+
+.btn-3 {
+  @apply bg-violet-400;
+}
+
+.btn-4 {
+  @apply bg-emerald-400;
+}
+
+.btn-5 {
+  @apply bg-orange-400;
+}
+
+.btn-6 {
+  @apply bg-yellow-400;
+}
